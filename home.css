@@ -1,0 +1,76 @@
+.header{
+    background-color: rgba(5, 0, 0, 0.964);
+
+}
+.header ul li a{
+    color: rgb(243, 232, 232);
+    justify-content: space-between;
+}
+.header ul li a.active{
+    color: rgb(246, 240, 240)!important;
+}
+.header ul li a:hover{
+    color: gray;
+}
+.navbar-toggler{
+    background-color: rgb(113, 105, 131);
+}
+
+#fsh, 
+#about {
+    height: 100vh;
+    border: 1px solid rgb(97, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+#about p{
+    margin-bottom: 30px;
+}
+
+#about ul{
+    margin-top: 20px;
+}
+
+#fsh .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+i {
+    margin-top: 10px;
+    width: 40px;
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#fsh h1 {
+    font-size: 3em;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* fotot n background */
+
+#fsh {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(111, 108, 108, 0.75)), url('./fotot/c.jpg');
+    
+}
+
+#about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(111, 108, 108, 0.75)), url('./fotot/saldim\ me\ elektroda.jpg');
+    color: antiquewhite;
+}

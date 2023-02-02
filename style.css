@@ -1,0 +1,181 @@
+.header{
+    background-color: black;
+}
+.header ul li a{
+    color: white;
+}
+.header ul li a:hover{
+    color: rgb(149, 167, 233);
+}
+.navbar-toggler{
+    background-color: white;
+}/* pjesa e ballines*/
+
+#fsh {
+    height: 100vh;
+    border: 1px solid rgb(97, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(111, 108, 108, 0.75)), url('./fotot/c.jpg');
+}
+#fsh .profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#fsh h1 {
+    font-size: 3em;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* fund*/
+
+/* Pjesa "reth nesh" */
+
+.row{
+    margin: 20px;
+}
+.fsh-about-1{
+    margin: 30px;
+    padding: 5px;
+}
+.fsh-about-1 h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fsh-about-1 h2{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fsh-about-1 P{
+    text-align: center;
+    padding: 3px;
+    color: rgb(25, 24, 24);
+}
+
+.fsh-about-1 hr{
+    width: 70%;
+    height: 3px;
+    margin: 0 auto;
+}
+
+.btn { 
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(60, 51, 51);
+    padding: 20px 50px;
+    border: 2px solid #888b8c58;
+    background-color: rgba(131, 124, 124, 0.392);
+    border-radius: 8px;
+    width: fit-content;
+}
+
+@keyframes pulse{
+    from {
+        box-shadow:
+            0 0 25px #7effb2,
+            0 0 25px #2cd9ff; 
+    }
+}
+
+.btn:focus {
+    animation: 
+        pulse 0.5s ease-in-out;
+}
+
+/* fund*/
+
+/* Pjesa e sherbimeve*/
+.servicetitle{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgba(32, 32, 70, 0.826);
+    text-align: center;
+ }
+ .servicetitle:hover{
+     color: black;
+ }
+ body{
+     background-color: rgba(220, 218, 119, 0.129)
+ }
+ 
+ .card{
+     color: #fff;
+     background: line rgba(255, 255, 255,0.3);
+     border-radius: 5px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+     width: 18rem ;
+ }
+ .card-body{
+     color: black;
+ }
+ 
+ .col-sm{
+     margin-bottom: 2rem;
+ }
+
+
+ 
+ /* fund*/
+
+ /*futeri*/
+
+.fsh-Footer-clean{
+    background-color: rgba(200, 158, 104, 0.175);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(17, 17, 13);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+}
+
+.fsh-footer ul{
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.fsh-footer a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+i {
+    margin-top: 10px;
+    width: 40px;
+    font-size: 30px;
+}
+
+@media (max-width: 993px) {
+    .card {
+    color: #fff;
+    background: line rgba(255, 255, 255,0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    height: auto;
+    width: 18rem;
+    }
+}

@@ -1,0 +1,144 @@
+/*---headeri---*/
+.header{
+    background-color: black;
+}
+.header ul li a{
+    color: white;
+}
+.header ul li a:hover{
+    color: rgb(149, 167, 233);
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+
+/*----perfundimi---*/
+
+.home h2{
+    text-align: center;
+    padding: 0% 10%;
+}
+.home{
+    background-image: linear-gradient(rgba(12, 13, 19, 0.5),rgba(12, 13, 19, 0.5)),url('./fotot/c.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/*--Contact us--*/
+
+
+
+.home h3{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: beige;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=text], select, textarea {
+    color: rgba(240, 248, 255, 0.466);
+    width: 100%;
+    padding: 5px;
+    background: #1311113b;
+    border: 1px solid rgba(98, 100, 121, 0.399);
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+
+
+input[type=submit] {
+    background-color: #30244e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #2e2654;
+}
+.container {
+    color: rgb(208, 194, 194);
+    margin: auto;
+    border-radius: 15px;
+    background-color: #100f0fad;
+    padding: 20px 40px;
+    box-shadow: 0 4px 30px rgba(239, 236, 236, 0.584);
+
+}
+
+
+
+/*---perfundimi--*/
+
+.text{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about{
+    background-color: linear-gradient (to right, rgb(80, 69, 69), rgb(5, 0, 0)) ;
+}
+
+.servicetitle{
+   margin-bottom: 50px;
+   margin-top: 50px;
+   margin-left: 27%;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+   color: rgba(231, 223, 215, 0.826);
+}
+
+body{
+    background-color: rgba(190, 175, 175, 0.816);
+}
+
+.gmap_canvas{
+    
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+/*----futeri---*/
+.fsh-Footer-clean{
+    background-color: rgba(8, 8, 8, 0.074);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(244, 244, 239);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fsh-footer ul{
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.fsh-footer a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+/*----perfundimi-----*/
+/*media*/
+
+@media (max-width: 576px){
+    .home{
+        padding: 10px;
+    }
+}

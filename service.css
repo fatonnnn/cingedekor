@@ -1,0 +1,140 @@
+body, html{
+	overflow-x: hidden;
+}
+.header{
+    background-color: black;
+}
+.header ul li a{
+    color: white;
+}
+.header ul li a:hover{
+    color: rgb(149, 167, 233);
+}
+.navbar-toggler{
+    background-color: white;
+}
+.home h2{
+    text-align: center;
+    padding: 0% 10%;
+}
+.home{
+background-image: url(./fotot/c.jpg);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.text{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.about{
+    background-color: linear-gradient (to right, rgb(80, 69, 69), rgb(5, 0, 0)) ;
+}
+.row{
+    padding-left: 50px;
+}
+.servicetitle{
+   margin-bottom: 50px;
+   margin-top: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 15px;
+   color: rgba(20, 20, 19, 0.826);
+   text-align: center;
+   color: rgb(179, 28, 28);
+}
+.servicetitle:hover{
+    color: black;
+}
+body{
+    background-color: rgba(220, 218, 119, 0.129)
+}
+
+
+.card{
+    color: #fff;
+    background: line rgba(255, 255, 255,0.3);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    height: auto;
+    
+
+}
+.card-body{
+    color: black;
+}
+
+.col-sm{
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 993px) {
+    .card {
+    color: #fff;
+    background: line rgba(255, 255, 255,0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    height: auto;
+    width: 18rem;
+    }
+}
+
+/*-----futeri----*/
+
+.fsh-Footer-clean{
+    background-color: rgba(200, 158, 104, 0.175);
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(17, 17, 13);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+}
+
+.fsh-footer ul{
+    margin-left: 0;
+    font-style: normal;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.fsh-footer a{
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+i {
+    width: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 993px) {
+    .card {
+    color: #fff;
+    background: line rgba(255, 255, 255,0.3);
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.142);
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    height: auto;
+    width: 18rem;
+    }
+}
+
+/*----perfundimi----*/
